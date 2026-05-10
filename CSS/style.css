@@ -135,19 +135,19 @@ nav a:hover{
   padding: 10px;
 }
 .html{
-    background-image: linear-gradient(to right,#afffb4 70%, #ffff 30%);
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 30%);
     height: 7px;
 }
 .CSS{
-    background-image: linear-gradient(to right,#afffb4 60%, #ffff 40%);
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 40%);
     height: 7px;
 }
 .design{
-    background-image: linear-gradient(to right,#afffb4 80%, #ffff 20%);
+    background-image: linear-gradient(to right,#afffb4 70%, #ffff 20%);
     height: 7px;
 }
 .english{
-    background-image: linear-gradient(to right,#afffb4 90%, #ffff 10%);
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 10%);
     height: 7px;
 }
 .hindi{
