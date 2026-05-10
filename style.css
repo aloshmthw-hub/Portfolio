@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+p{
+    line-height: 1.6;
+}
+h1{
+    font-size: 62px;
+    margin: 0;
+}
+h2{
+    font-size: 52px;
+    margin-bottom: 0;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.title{
+    text-align: center;
+    padding: 15px;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    position: sticky;
+    top: 0;
+    background-color: #020204;
+    z-index: 9999;
+}
+header a{
+    font-family: cursive;
+}
+
+.logo{
+    color: white;
+    font-size: 32px;
+}
+.gold{
+    color: #afffb4;
+}
+.about{
+    font-family: cursive;
+}
+.contact{
+    font-family: cursive;
+}
+.about img{
+    border-radius: 30px;
+    transition: 0.60s;
+}
+.about img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+nav a{
+    color: white;
+    padding: 15px;
+}
+nav a:hover{
+    color: #afffb4;
+    border-bottom: 3px solid #afffb4;
+}
+.tools{
+    font-family: cursive;
+    text-align: center;
+}
+.tools img{
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.tools img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.hero{
+    background-image: url(../images/portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    place-content: center ;
+}
+.hero .btnl{
+    padding-left: 30px;
+}
+.hero h3{
+    font-family:cursive;
+    color: #afffb4;
+}
+.skills{
+    font-family: cursive;
+}
+.btnl{
+    border: 3px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+.btnl:hover{
+    background-color: #afffb4;
+    color: black;
+}
+.btn2 {
+  background-color: #afffb4;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.html{
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 30%);
+    height: 7px;
+}
+.CSS{
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 40%);
+    height: 7px;
+}
+.design{
+    background-image: linear-gradient(to right,#afffb4 70%, #ffff 20%);
+    height: 7px;
+}
+.english{
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 10%);
+    height: 7px;
+}
+.hindi{
+    background-image: linear-gradient(to right,#afffb4 100%, #ffff 30%);
+    height: 7px;
+}
+.mal{
+    background-image: linear-gradient(to right,#afffb4 80%, #ffff 20%);
+    height: 7px;
+}
+.portfolio{
+    font-family: cursive;
+}
+.portfolio .col{
+    flex: 300px;
+    padding: 0;
+    overflow: hidden;
+}
+.portfolio img{
+    transition: 0.6s;
+    border-radius: 30px;
+}
+.portfolio img:hover{
+    transform: scale(1.3);
+    border-radius: 20px;
+    transition: 1s;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+textarea{
+    min-height: 120px;
+}
+.submit{
+    border: 2px solid white;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+}
+footer{
+    background-color: #0f0f0f;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* -------media quary for mobile------- */
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        text-align:center;
+    }
+    h2{
+        font-size: 42px;
+    }
+}
+
+/* -----media quary for tab------ */
+
+@media screen and (min-width:501px) and (max-width:800px){
+    .hero{
+        background-position-x: 80%;
+    }
+    .pic1{
+        display: none;
+    }
+}
+
+
